@@ -1,0 +1,37 @@
+Objective list
+
+Assignment 0 objectives
+☑ The Quit button has been moved to the top of the Shape Properties panel.
+☑ The Q keyboard shortcut quits the program.
+☑ The user interface includes sliders to control the Green and Blue components of the triangle's colour.
+☑ The user interface includes a slider to control the triangle's rotation.
+☑ The user interface includes keyboard shortcuts to scale the triangle up and down at a reasonable rate.
+☑ The user interface includes a Reset button and a corresponding keyboard shortcut.
+
+
+Now build the bundled libraries. They have different build processes, but we've provided a quick way to get it all done at once:
+	cd cs488
+	cs488$ premake4 gmake
+	cs488$ make
+
+Now go into the A0/ directory and build the skeleton code:
+
+  cs488$ cd A0
+  cs488/A0$ premake4 gmake
+  cs488/A0$ make
+
+
+Launch Application using:
+  cs488/A0$ ./A0
+
+Commands:
+
+Q = quit
+R = Reset application
++ Or - = Zoom
+
+
+In the Shape Properties palette:
+1. Quit Application
+2. RGB Slider to manipulate colour of triangle.
+3. Rotation slider to rotate the triangle.
